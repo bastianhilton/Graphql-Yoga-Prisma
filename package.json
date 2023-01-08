@@ -1,0 +1,63 @@
+{
+  "name": "graphql-yoga-prisma",
+  "version": "1.0.0",
+  "description": "Graphql-Yoga graphql server with integration for SOFA-Api, Prisma, Envelop, Sentry, Typegraphql, Typescript, and Fastify",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bastianhilton/Graphql-Yoga-Prisma.git"
+  },
+  "keywords": [
+    "graphql-yoga",
+    "prisma",
+    "typegraphql",
+    "envelop",
+    "graphql",
+    "sentry",
+    "nodejs",
+    "fastify",
+    "javascript",
+    "typescript"
+  ],
+  "author": "Sebastian Hilton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bastianhilton/Graphql-Yoga-Prisma/issues"
+  },
+  "homepage": "https://github.com/bastianhilton/Graphql-Yoga-Prisma#readme",
+  "dependencies": {
+    "@envelop/core": "^3.0.4",
+    "@envelop/graphql-jit": "^5.0.4",
+    "@envelop/parser-cache": "^5.0.4",
+    "@envelop/sentry": "^5.0.0",
+    "@envelop/validation-cache": "^5.0.5",
+    "@graphql-yoga/plugin-sofa": "^1.3.0",
+    "@prisma/client": "^4.8.1",
+    "@sentry/core": "^7.29.0",
+    "@sentry/tracing": "^7.29.0",
+    "@types/aws-lambda": "^8.10.109",
+    "@types/graphql": "^14.5.0",
+    "@types/graphql-fields": "^1.3.4",
+    "@types/node": "^18.11.18",
+    "@whatwg-node/fetch": "^0.6.1",
+    "aws-lambda": "^1.0.7",
+    "class-validator": "^0.14.0",
+    "cors": "^2.8.5",
+    "fastify": "^4.11.0",
+    "graphql": "^15.8.0",
+    "graphql-fields": "^2.0.3",
+    "graphql-scalars": "^1.20.1",
+    "graphql-ws": "^5.11.2",
+    "graphql-yoga": "^3.3.0",
+    "prisma": "^4.8.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.4.1",
+    "type-graphql": "^1.1.1",
+    "typegraphql-prisma": "^0.23.2",
+    "typescript": "^4.9.4"
+  }
+}
