@@ -4,7 +4,8 @@
   "description": "Graphql-Yoga graphql server with integration for SOFA-Api, Prisma, Envelop, Sentry, Typegraphql, Typescript, and Fastify",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "ts-node index.ts"
   },
   "repository": {
     "type": "git",
@@ -34,30 +35,30 @@
     "@envelop/parser-cache": "^5.0.4",
     "@envelop/sentry": "^5.0.0",
     "@envelop/validation-cache": "^5.0.5",
-    "@graphql-yoga/plugin-sofa": "^1.3.0",
-    "@prisma/client": "^4.8.1",
+    "@graphql-yoga/plugin-sofa": "^1.5.1",
+    "@prisma/client": "^4.10.1",
     "@sentry/core": "^7.29.0",
     "@sentry/tracing": "^7.29.0",
     "@types/aws-lambda": "^8.10.109",
     "@types/graphql": "^14.5.0",
     "@types/graphql-fields": "^1.3.4",
     "@types/node": "^18.11.18",
-    "@whatwg-node/fetch": "^0.6.1",
-    "aws-lambda": "^1.0.7",
-    "class-validator": "^0.14.0",
+    "@whatwg-node/fetch": "^0.6.9",
     "cors": "^2.8.5",
     "fastify": "^4.11.0",
     "graphql": "^15.8.0",
     "graphql-fields": "^2.0.3",
+    "graphql-middleware": "^6.1.33",
     "graphql-scalars": "^1.20.1",
+    "graphql-shield": "^7.6.5",
     "graphql-ws": "^5.11.2",
     "graphql-yoga": "^3.3.0",
-    "prisma": "^4.8.1",
+    "prisma": "^4.10.1",
     "reflect-metadata": "^0.1.13",
     "ts-node": "^10.9.1",
     "tslib": "^2.4.1",
     "type-graphql": "^1.1.1",
-    "typegraphql-prisma": "^0.23.2",
+    "typegraphql-prisma": "^0.23.5",
     "typescript": "^4.9.4"
   }
 }

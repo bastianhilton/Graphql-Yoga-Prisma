@@ -38,7 +38,7 @@ Sofa API = https://the-guild.dev/graphql/sofa-api
 3. npm install
 4. npx prisma db push
 5. npx prisma generate
-6. ts-node index.ts
+6. npm run serve
 
 ### To change your database to another Prisma supported database
 
@@ -49,7 +49,7 @@ Sofa API = https://the-guild.dev/graphql/sofa-api
 
 5. npx prisma db push
 6. npx prisma generate
-7. ts-node index.ts
+7. npm run serve
 
 ### How to access your graphql server
 
